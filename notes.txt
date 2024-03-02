@@ -1,0 +1,47 @@
+git init
+git status
+git add "nome-do-arquivo"  (enviar 1 arquivo)
+git add . (enviar todos os arquivos)
+git commit -m "mensagem aqui"
+git pull
+git push
+
+-----------------
+
+Novo repositorio:
+git remote add origin https://github.com/caaiorr/teste-github
+
+Forçar push:
+git push -f origin main
+
+Histórico:
+git reflog
+
+Voltar versão:
+git reflog (pegar código versão)
+git reset --hard (colar código versão)
+
+Lista de branchs:
+git branch
+
+Nova branch:
+git checkout -b (nova branch) main
+
+Mudar de branch:
+git checkout (nome branch)
+
+Merge:
+git branch main
+git pull
+git merge (nome branch)
+git push
+copia e cola
+git push
+
+Pull request:
+Diretamente no Github
+
+Ignore:
+touch .gitignore
+Dentro do arquivo .gitignore gerado, listar pastas e arquivos
+a serem ignorados
