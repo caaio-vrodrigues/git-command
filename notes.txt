@@ -1,15 +1,26 @@
+Novo repositorio:
 git init
 git status
-git add "nome-do-arquivo"  (enviar 1 arquivo)
-git add . (enviar todos os arquivos)
-git commit -m "mensagem aqui"
-git pull
-git push
+git add . 
+git commit -m "título"
+git branch -M main
+git remote add origin "url-repositório"
+git push -u origin main
 
 -----------------
 
-Novo repositorio:
-git remote add origin https://github.com/caaiorr/teste-github
+Merge:
+git branch main
+git pull
+git merge (nome branch)
+git push
+copia e cola
+git push
+
+--------
+
+Enviar 1 arquivo:
+git add "nome-do-arquivo" 
 
 Forçar push:
 git push -f origin main
@@ -29,14 +40,6 @@ git checkout -b (nova branch) main
 
 Mudar de branch:
 git checkout (nome branch)
-
-Merge:
-git branch main
-git pull
-git merge (nome branch)
-git push
-copia e cola
-git push
 
 Pull request:
 Diretamente no Github
